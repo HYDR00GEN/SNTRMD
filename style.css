@@ -1,0 +1,58 @@
+/* #004522 */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #004522;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo{
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.551);
+}
+
+.button-action span{
+    background-color: red;
+    display: inline;
+}
+
+.container-action{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1564936281659-ba4f75a41956?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emVyaWF8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.text-menu{
+    text-align: center;
+}
+
+.container-menu{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-contacts{
+    text-align: center;
+    background-color: grey;
+}
+
+footer {
+    background-color: #333; /* Adjust the style as needed */
+    color: #fff; /* Adjust the style as needed */
+    text-align: center; /* Adjust the style as needed */
+    padding: 10px;
+}
